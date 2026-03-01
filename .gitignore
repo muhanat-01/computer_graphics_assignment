@@ -1,0 +1,5 @@
+# Ignore all Revit project files by default
+*.rvt
+
+# Keep only the final submission model tracked
+!Computer_Graphics_Assignment.rvt
