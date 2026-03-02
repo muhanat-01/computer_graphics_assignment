@@ -16,6 +16,9 @@ A key instruction in the brief was that one typical floor could be designed and 
 ## Submission Objective
 The central aim of this submission was to produce a coherent, realistic, and technically legible 14-storey building model in Revit, then present it with discipline-specific views and symbols that reflect professional architectural documentation standards.
 
+## Software Note
+Although the original brief suggested AutoCAD or Archicad, the lecturer later allowed alternative software where performance constraints existed. Based on that flexibility, this project was developed and documented in **Autodesk Revit**.
+
 ## Design and Modelling Work Completed
 
 ### 1. Core Architectural Layout Development
@@ -31,7 +34,7 @@ Visual evidence:
 
 ![Ground floor plan](<Screenshots/2D_Ground_floor_plan.png>)
 *Tag: 2D representation of the ground floor spatial layout and room organization.*
-![Typical upper floor plan](<Screenshots/2D_First_floor_plan_same_as_other_remaining_floors.png>)
+![Typical upper floor plan](<Screenshots/2D_Typical_Plan_With_Everything_Applies to rest 14_floors.png>)
 *Tag: This typical floor plan is replicated across the upper floors, except the rooftop level.*
 ![Roof top plan](<Screenshots/2D_roof_top_plan.png>)
 *Tag: 2D rooftop plan showing the top-level envelope and core termination.*
@@ -50,7 +53,7 @@ Visual evidence:
 ![East elevation](<Screenshots/East_elevation_architectural_view.png>)
 *Tag: East architectural elevation confirming vertical alignment across all 14 floors.*
 ![North elevation](<Screenshots/North_elevation_architectural_view.png>)
-*Tag: North elevation showing façade rhythm and floor-by-floor consistency.*
+*Tag: North elevation showing faï¿½ade rhythm and floor-by-floor consistency.*
 ![South elevation](<Screenshots/South_elevation_architectural_view.png>)
 *Tag: South elevation used to validate overall tower proportions and level markers.*
 ![West elevation](<Screenshots/West_elevation_architectural_view.png>)
@@ -77,45 +80,76 @@ Visual evidence:
 *Tag: Side 3D section highlighting staircase and lift shaft continuity.*
 
 ### 4. Electrical Wiring Plan (Section b - 6 Marks)
-We created a dedicated electrical plan view and populated it with electrical symbols and fixture points distributed across the floor layout. The plan is organised to support service clarity rather than architectural clutter.
+We created a dedicated electrical plan view and a composed sheet that includes both the electrical drawing and its legend. The plan is organised to support service clarity rather than architectural clutter.
 
 What this demonstrates:
 
 - Separate electrical discipline workflow.
-- Use of symbols and electrical annotation conventions.
+- Use of symbols and electrical annotation conventions with explicit legend mapping.
 - Consistent placement of service points in relation to room usage.
+- Practical appliance and circulation support through correctly positioned power and lighting outlets.
+
+Electrical elements used:
+
+- Switch board
+- Distribution board
+- Double sockets
+- Switches
+- Cooker socket
+- Floor lamps
 
 Visual evidence:
 
 ![Electrical plan](<Screenshots/Electrical_plan.png>)
 *Tag: Electrical layout showing fixture and connection points across the floor.*
+![Electrical plan sheet with legend](<Screenshots/Electrical_Plan_Sheet_with_Legend.png>)
+*Tag: Combined electrical sheet and legend showing symbol definitions and plan application.*
 
 ### 5. Water and Plumbing Plan (Section c - 6 Marks)
-We created a discipline-specific plumbing plan and placed plumbing components for wet areas and service points. The plan is visually isolated to improve readability and technical interpretation.
+We created a discipline-specific plumbing plan and a complete sheet with legend to document symbol interpretation alongside pipe routing and fixture positioning. The plan is visually isolated to improve readability and technical interpretation.
 
 What this demonstrates:
 
 - Plumbing-specific plan separation from architecture and electrical views.
 - Distribution of plumbing elements tied to bathrooms and service zones.
-- Use of standard symbolic representation for service documentation.
+- Use of standard symbolic representation for service documentation with clear legend references.
+- Functional fixture layout for domestic water supply and sanitary connections.
+
+Plumbing elements used:
+
+- Kitchen sink
+- Washroom sink
+- Cistern tank
+- Shower tray
 
 Visual evidence:
 
 ![Plumbing plan](<Screenshots/Plumbing_Plan.png>)
 *Tag: Plumbing layout showing water-service points in wet and utility zones.*
+![Plumbing plan sheet with legend](<Screenshots/Plumbing_Plan_Sheet_with_Legend.png>)
+*Tag: Combined plumbing sheet and legend showing fixture symbols and distribution logic.*
 
 ### 6. Wi-Fi and Network Plan (Section d - 5 Marks)
-A network planning view is included in the model structure (`NETWORK PLAN`) as part of the deliverable set. The floor tab and view tree confirm that network work was integrated within the same coordinated BIM environment.
+A dedicated network planning view is included as part of the deliverable set, with both the plan and a sheet presentation that contains legend information.
 
 What this demonstrates:
 
 - A dedicated network plan view was created and managed in the project workspace.
 - Network planning was coordinated alongside architectural and MEP views to avoid isolated drafting workflows.
+- Structured digital connectivity design using clear device placement and labelled routing logic.
+
+Network elements used:
+
+- LAN / switch
+- Wi-Fi access point
+- Dotted green data routes for network cabling paths
 
 Visual evidence:
 
-![Network plan context from floor tabs](<Screenshots/2D_Ground_floor_plan.png>)
-*Tag: View-tab evidence confirming the dedicated network plan exists in the project.*
+![Network plan](<Screenshots/Network_Plan.png>)
+*Tag: Network layout showing device positions and data route distribution.*
+![Network plan sheet with legend](<Screenshots/Network_Plan_Sheet_with_Legend.png>)
+*Tag: Combined network sheet and legend clarifying symbols and routing conventions.*
 
 ### 7. Symbols, Annotation, and Documentation Standards
 To satisfy the instruction on standard symbols and professional clarity, we maintained explicit legend and annotation references in the project.
@@ -156,30 +190,36 @@ Completed through:
 
 - Dedicated electrical floor plan.
 - Electrical symbol placement by room/service need.
+- Full electrical legend sheet for symbol clarity.
 
 Primary evidence:
 
 - `Electrical_plan.png`
+- `Electrical_Plan_Sheet_with_Legend.png`
 
 ### (c) Water and Plumbing Plan - 6 Marks
 Completed through:
 
 - Dedicated plumbing floor plan.
 - Plumbing fixture/service placement linked to wet zones.
+- Full plumbing legend sheet for symbol interpretation.
 
 Primary evidence:
 
 - `Plumbing_Plan.png`
+- `Plumbing_Plan_Sheet_with_Legend.png`
 
 ### (d) Wi-Fi and Network Plan - 5 Marks
 Completed through:
 
-- Creation and integration of a `NETWORK PLAN` view in the project workflow.
+- Creation and integration of a dedicated network plan in the project workflow.
 - Coordination of network planning within the same floor-plan and model context.
+- Routing documentation using dotted green data paths with device legends.
 
 Primary evidence:
 
-- Screens showing `NETWORK PLAN` in active view tabs and view structure.
+- `Network_Plan.png`
+- `Network_Plan_Sheet_with_Legend.png`
 
 ### (e) Presentation and Professionalism - 3 Marks
 Completed through:
@@ -235,4 +275,3 @@ The final output is therefore not just a model, but a coordinated drawing set pr
 
 ## Conclusion
 All required CAT components were developed and documented in this repository. The evidence set in `Screenshots/` and the supporting PDFs together provide traceable proof of modelling decisions, service planning, and presentation standards expected for the assignment.
-
