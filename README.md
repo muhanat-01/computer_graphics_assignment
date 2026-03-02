@@ -252,15 +252,8 @@ These references were used to maintain scope discipline, symbol correctness, pla
 Main modelling environment and deliverables:
 
 - Autodesk Revit project iterations:
-  - `Computer_Grapgics_Assignment.0015.rvt`
-  - `Computer_Grapgics_Assignment.0016.rvt`
-  - `Computer_Grapgics_Assignment.0017.rvt`
-  - `Computer_Grapgics_Assignment.0018.rvt`
-  - `Computer_Graphics_Assignment.0019.rvt`
-  - `Computer_Graphics_Assignment.0021.rvt`
-  - `Computer_Graphics_Assignment.0022.rvt`
-  - `Computer_Graphics_Assignment.0023.rvt`
-  - `Computer_Graphics_Assignment.rvt` (latest main file in this folder)
+
+  - `Computer_Graphics_Assignment.rvt` (File with Assignment)
 
 - Custom/loaded content directory:
   - `My Revit Families/`
