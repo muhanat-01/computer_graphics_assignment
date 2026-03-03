@@ -15,7 +15,8 @@
 - BSCCS/2023/67547 - Khalid Abdikarim
 - BSCCS/2023/72524 - Abel Rono
 - BSCCS/2023/61469 - Akol Mayen
-- Bsccs/2023/62907 - Zakaria Suleiman
+- BSCCS/2023/62907 - Zakaria Suleiman
+- BSCSS/2023/62613 - Ian David Masibo
 
 ## Project Type and Design Intent
 This project is a **residential apartment building**, not an office-rental development. The model was produced as a 14-storey building in Autodesk Revit and documented as a coordinated drawing package covering architecture, electrical services, plumbing services, and network services.
